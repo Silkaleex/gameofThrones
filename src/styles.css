@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  background: #f2f2f2;
+  background: linear-gradient(125deg, #f2f2f2 0%, #425c81 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+  background: #e4d4e4;
+  width: 20px;
+  border: 3px solid #425c81;
+}
+
+body::-webkit-scrollbar-button:increment,
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
+body::-webkit-scrollbar:horizontal {
+  height: 40px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #425c81;
+  border-radius: 50px;
+  border: 2px solid #aee5d0;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}

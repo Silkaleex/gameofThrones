@@ -1,0 +1,25 @@
+<h1>Game of Thrones</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3" *ngFor="let games of gameofThrones">
+      <div
+        class="card card-img-top decoration-img ajustes"
+        style="width: 18rem"
+      >
+        <img src="{{ games.imageUrl }}" class="img" alt="..." />
+        <div class="card-body decoration-txt">
+          <div class="card-body texto">
+            <h2 class="card-title">{{ games.fullName }}</h2>
+            <h4 class="card-text">
+              {{ games.title }}
+            </h4>
+            <h5 class="card-text">
+              {{ games.family }}
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>&copy; Todos los derechos reservados Silkaleex &copy;</footer>
